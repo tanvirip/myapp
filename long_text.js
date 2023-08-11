@@ -5,8 +5,8 @@ const transformerProxy = require('transformer-proxy');
 
 const CONFIG = {
     PORT: 80, // Port for the VPS proxy server
-    TARGET_PROXY_IP: 'YOUR_PROXY_SERVER_IP', // Replace with the IP of your proxy server
-    TARGET_PROXY_PORT: 5050, // Replace with the port your proxy server is running on
+    TARGET_PROXY_IP: '192.168.0.106', // Replace with the IP of your proxy server
+    TARGET_PROXY_PORT: 8080, // Replace with the port your proxy server is running on
     RESPONSE_HEADERS: [
         { name: 'X-Secret-Header', value: null }, // null => remove header
     ],
